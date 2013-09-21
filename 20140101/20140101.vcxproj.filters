@@ -25,6 +25,9 @@
     <Filter Include="Package\Bin">
       <UniqueIdentifier>{28f10033-9e18-47fa-95c0-25b206f20383}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Property">
+      <UniqueIdentifier>{ebd5097f-788f-44d5-a013-f9ee818a4b9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="blocksort.c">
@@ -77,6 +80,12 @@
     </ClCompile>
     <ClCompile Include="MpqExport.cpp">
       <Filter>Package\Mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>Property</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyMgr.cpp">
+      <Filter>Property</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +154,15 @@
     </ClInclude>
     <ClInclude Include="MpqExport.h">
       <Filter>Package\Mpq</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>Property</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyMgr.h">
+      <Filter>Property</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyId.h">
+      <Filter>Property</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

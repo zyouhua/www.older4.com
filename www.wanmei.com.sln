@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "account", "account", "{EAD3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "account.ui", "account.ui\account.ui.csproj", "{2266969C-F9CB-491B-9568-FB8B4A987F49}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "account.core", "account.core\account.core.vcxproj", "{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,18 @@ Global
 		{2266969C-F9CB-491B-9568-FB8B4A987F49}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2266969C-F9CB-491B-9568-FB8B4A987F49}.Release|Win32.ActiveCfg = Release|Any CPU
 		{2266969C-F9CB-491B-9568-FB8B4A987F49}.Release|x86.ActiveCfg = Release|Any CPU
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Debug|Win32.Build.0 = Debug|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Release|Any CPU.ActiveCfg = Release|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Release|Win32.ActiveCfg = Release|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Release|Win32.Build.0 = Release|Win32
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02}.Release|x86.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,5 +95,6 @@ Global
 		{F2F82ED3-5B8C-4F54-A251-85CF68C7C481} = {A98348DA-3591-44DD-BDC9-2EE2D6DC7C13}
 		{2C6624A9-4638-4958-81AC-1B968546847E} = {A98348DA-3591-44DD-BDC9-2EE2D6DC7C13}
 		{2266969C-F9CB-491B-9568-FB8B4A987F49} = {EAD31167-52A6-4D67-BB43-F25C06AE616F}
+		{E7E7EEDD-431B-48B1-A53C-EE93E10F8F02} = {EAD31167-52A6-4D67-BB43-F25C06AE616F}
 	EndGlobalSection
 EndGlobal

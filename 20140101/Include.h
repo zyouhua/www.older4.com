@@ -3,6 +3,7 @@
 #include <stack>
 #include <string>
 #include <list>
+#include <map>
 #include <fstream>
 #include <locale>
 #include "Common.h"
@@ -18,3 +19,6 @@
 #include "MpqHead.h"
 #include "MpqReader.h"
 #include "MpqWriter.h"
+#include "Property.h"
+#include "PropertyId.h"
+#include "PropertyMgr.h"

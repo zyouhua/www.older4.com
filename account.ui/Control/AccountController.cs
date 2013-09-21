@@ -7,7 +7,7 @@ namespace account.ui
         [HttpGet]
         public string  _createAccount()
         {
-            return "hello world!";
+            return "";
         }
 
     }

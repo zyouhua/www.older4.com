@@ -94,6 +94,8 @@
     <ClCompile Include="MpqHash.cpp" />
     <ClCompile Include="MpqHead.cpp" />
     <ClCompile Include="MpqWriter.cpp" />
+    <ClCompile Include="Property.cpp" />
+    <ClCompile Include="PropertyMgr.cpp" />
     <ClCompile Include="randtable.c" />
     <ClCompile Include="XmlReader.cpp" />
   </ItemGroup>
@@ -107,12 +109,15 @@
     <ClInclude Include="crypt_buf.h" />
     <ClInclude Include="HashSingleton.h" />
     <ClInclude Include="Include.h" />
+    <ClInclude Include="PropertyId.h" />
     <ClInclude Include="Library.h" />
     <ClInclude Include="MpqExport.h" />
     <ClInclude Include="MpqReader.h" />
     <ClInclude Include="MpqHash.h" />
     <ClInclude Include="MpqHead.h" />
     <ClInclude Include="MpqWriter.h" />
+    <ClInclude Include="Property.h" />
+    <ClInclude Include="PropertyMgr.h" />
     <ClInclude Include="rapidxml.hpp" />
     <ClInclude Include="rapidxml_iterators.hpp" />
     <ClInclude Include="rapidxml_print.hpp" />

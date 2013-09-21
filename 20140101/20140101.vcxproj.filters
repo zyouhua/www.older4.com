@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{359e18f4-0707-42e5-8009-b5ac4d5ad61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package">
+      <UniqueIdentifier>{99b319dd-46d8-4162-b087-b93895611572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package\Xml">
+      <UniqueIdentifier>{081a8ce4-d2f2-4368-8973-2156eb8481a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package\Mpq">
+      <UniqueIdentifier>{adc10cb9-ffb4-45aa-908c-450666af274e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{5a82db17-6627-4873-a4df-d9387d892ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Bzlib">
+      <UniqueIdentifier>{2a751ded-9e5c-4ca9-8eb0-0fd691ee6866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\RapidXml">
+      <UniqueIdentifier>{b2af39a6-c739-4d1d-bc9b-1a5b138480b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package\Bin">
+      <UniqueIdentifier>{28f10033-9e18-47fa-95c0-25b206f20383}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="blocksort.c">
+      <Filter>Library\Bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="bzlib.c">
+      <Filter>Library\Bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="compress.c">
+      <Filter>Library\Bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="crctable.c">
+      <Filter>Library\Bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="decompress.c">
+      <Filter>Library\Bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="huffman.c">
+      <Filter>Library\Bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="randtable.c">
+      <Filter>Library\Bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlReader.cpp">
+      <Filter>Package\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="HashSingleton.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressSingleton.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="MpqHead.cpp">
+      <Filter>Package\Mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="BinWriter.cpp">
+      <Filter>Package\Bin</Filter>
+    </ClCompile>
+    <ClCompile Include="BinReader.cpp">
+      <Filter>Package\Bin</Filter>
+    </ClCompile>
+    <ClCompile Include="MpqHash.cpp">
+      <Filter>Package\Mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="MpqReader.cpp">
+      <Filter>Package\Mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="MpqWriter.cpp">
+      <Filter>Package\Mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="MpqExport.cpp">
+      <Filter>Package\Mpq</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bzlib.h">
+      <Filter>Library\Bzlib</Filter>
+    </ClInclude>
+    <ClInclude Include="bzlib_private.h">
+      <Filter>Library\Bzlib</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt_buf.h">
+      <Filter>Library\Bzlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MpqHash.h">
+      <Filter>Package\Mpq</Filter>
+    </ClInclude>
+    <ClInclude Include="MpqHead.h">
+      <Filter>Package\Mpq</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_utils.hpp">
+      <Filter>Library\RapidXml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>Library\RapidXml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_iterators.hpp">
+      <Filter>Library\RapidXml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_print.hpp">
+      <Filter>Library\RapidXml</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlReader.h">
+      <Filter>Package\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="HashSingleton.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="CompressSingleton.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="BinReader.h">
+      <Filter>Package\Bin</Filter>
+    </ClInclude>
+    <ClInclude Include="BinWriter.h">
+      <Filter>Package\Bin</Filter>
+    </ClInclude>
+    <ClInclude Include="MpqReader.h">
+      <Filter>Package\Mpq</Filter>
+    </ClInclude>
+    <ClInclude Include="__singleton.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="_convert.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MpqWriter.h">
+      <Filter>Package\Mpq</Filter>
+    </ClInclude>
+    <ClInclude Include="MpqExport.h">
+      <Filter>Package\Mpq</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

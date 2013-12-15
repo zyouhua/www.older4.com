@@ -28,6 +28,12 @@
     <Filter Include="Property">
       <UniqueIdentifier>{ebd5097f-788f-44d5-a013-f9ee818a4b9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="account.core">
+      <UniqueIdentifier>{dec31186-c2fa-4255-aec9-59ba9018c5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SqlQuery">
+      <UniqueIdentifier>{abec7e9f-58a4-41ed-b47a-5b89e9cf0f17}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="blocksort.c">
@@ -86,6 +92,24 @@
     </ClCompile>
     <ClCompile Include="PropertyMgr.cpp">
       <Filter>Property</Filter>
+    </ClCompile>
+    <ClCompile Include="LogSingleton.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertySink.cpp">
+      <Filter>Property</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountConfig.cpp">
+      <Filter>account.core</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountLoginB.cpp">
+      <Filter>account.core</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlFormat.cpp">
+      <Filter>SqlQuery</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlParameter.cpp">
+      <Filter>SqlQuery</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +187,36 @@
     </ClInclude>
     <ClInclude Include="PropertyId.h">
       <Filter>Property</Filter>
+    </ClInclude>
+    <ClInclude Include="IProtertyId.h">
+      <Filter>Property</Filter>
+    </ClInclude>
+    <ClInclude Include="ILog.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="LogSingleton.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertySink.h">
+      <Filter>Property</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountConfig.h">
+      <Filter>account.core</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountLoginB.h">
+      <Filter>account.core</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlFormat.h">
+      <Filter>SqlQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlType_.h">
+      <Filter>SqlQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlField_.h">
+      <Filter>SqlQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlParameter.h">
+      <Filter>SqlQuery</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

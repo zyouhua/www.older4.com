@@ -6,10 +6,13 @@
 #include <map>
 #include <fstream>
 #include <locale>
+#include <exception>
 #include "Common.h"
 #include "Library.h"
 #include "__singleton.h"
 #include "_convert.h"
+#include "ILog.h"
+#include "LogSingleton.h"
 #include "HashSingleton.h"
 #include "CompressSingleton.h"
 #include "XmlReader.h"
@@ -20,5 +23,10 @@
 #include "MpqReader.h"
 #include "MpqWriter.h"
 #include "Property.h"
+#include "IProtertyId.h"
 #include "PropertyId.h"
 #include "PropertyMgr.h"
+#include "PropertySink.h"
+#include "SqlField_.h"
+#include "SqlType_.h"
+#include "SqlFormat.h"

@@ -13,5 +13,49 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="SqlScript">
+      <UniqueIdentifier>{8ef185bc-02a5-4600-97b1-0bfed107be10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{ae388ab9-5657-4d56-b39d-66ffa6053fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Account">
+      <UniqueIdentifier>{03515860-9651-45d8-8b94-296139474322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Account\Config">
+      <UniqueIdentifier>{84378a90-3280-46f5-9814-e73afadc92ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Account\AccountSql">
+      <UniqueIdentifier>{cb67e545-e93d-4ca3-9e25-5c47ce53f9d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Account.sql">
+      <Filter>SqlScript</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="accountConfig.xml">
+      <Filter>Config</Filter>
+    </Xml>
+    <Xml Include="sqlConfig.xml">
+      <Filter>Config</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\20140101\AccountConfig.cpp">
+      <Filter>Account\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\20140101\AccountLoginB.cpp">
+      <Filter>Account\AccountSql</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\20140101\AccountConfig.h">
+      <Filter>Account\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\20140101\AccountLoginB.h">
+      <Filter>Account\AccountSql</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

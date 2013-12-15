@@ -1,5 +1,6 @@
 #pragma once
 
+
 #include "bzlib.h"
 #include "crypt_buf.h"
 #include "rapidxml.hpp"
@@ -8,6 +9,7 @@
 
 #include <boost/lexical_cast.hpp>
 #include <boost/smart_ptr.hpp>
+#include <boost/format.hpp>
 #include <boost/noncopyable.hpp>
 #include <boost/algorithm/string.hpp>
 

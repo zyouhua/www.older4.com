@@ -20,6 +20,7 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -53,7 +54,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>EXPORT;WIN32;_DEBUG;_WINDOWS;_USRDLL;MY20140101_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../boost/</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -79,6 +80,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AccountConfig.cpp" />
+    <ClCompile Include="AccountLoginB.cpp" />
     <ClCompile Include="BinReader.cpp" />
     <ClCompile Include="BinWriter.cpp" />
     <ClCompile Include="blocksort.c" />
@@ -89,6 +92,7 @@
     <ClCompile Include="decompress.c" />
     <ClCompile Include="HashSingleton.cpp" />
     <ClCompile Include="huffman.c" />
+    <ClCompile Include="LogSingleton.cpp" />
     <ClCompile Include="MpqExport.cpp" />
     <ClCompile Include="MpqReader.cpp" />
     <ClCompile Include="MpqHash.cpp" />
@@ -96,10 +100,15 @@
     <ClCompile Include="MpqWriter.cpp" />
     <ClCompile Include="Property.cpp" />
     <ClCompile Include="PropertyMgr.cpp" />
+    <ClCompile Include="PropertySink.cpp" />
     <ClCompile Include="randtable.c" />
+    <ClCompile Include="SqlFormat.cpp" />
+    <ClCompile Include="SqlParameter.cpp" />
     <ClCompile Include="XmlReader.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AccountConfig.h" />
+    <ClInclude Include="AccountLoginB.h" />
     <ClInclude Include="BinReader.h" />
     <ClInclude Include="BinWriter.h" />
     <ClInclude Include="bzlib.h" />
@@ -109,6 +118,9 @@
     <ClInclude Include="crypt_buf.h" />
     <ClInclude Include="HashSingleton.h" />
     <ClInclude Include="Include.h" />
+    <ClInclude Include="IProtertyId.h" />
+    <ClInclude Include="ILog.h" />
+    <ClInclude Include="LogSingleton.h" />
     <ClInclude Include="PropertyId.h" />
     <ClInclude Include="Library.h" />
     <ClInclude Include="MpqExport.h" />
@@ -118,10 +130,15 @@
     <ClInclude Include="MpqWriter.h" />
     <ClInclude Include="Property.h" />
     <ClInclude Include="PropertyMgr.h" />
+    <ClInclude Include="PropertySink.h" />
     <ClInclude Include="rapidxml.hpp" />
     <ClInclude Include="rapidxml_iterators.hpp" />
     <ClInclude Include="rapidxml_print.hpp" />
     <ClInclude Include="rapidxml_utils.hpp" />
+    <ClInclude Include="SqlField_.h" />
+    <ClInclude Include="SqlFormat.h" />
+    <ClInclude Include="SqlParameter.h" />
+    <ClInclude Include="SqlType_.h" />
     <ClInclude Include="XmlReader.h" />
     <ClInclude Include="_convert.h" />
     <ClInclude Include="__singleton.h" />
